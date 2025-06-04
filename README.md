@@ -44,7 +44,7 @@ See the `DSAStudy.Core/Algorithms/Arrays/` and `DSAStudy.Tests/Algorithms/Arrays
 ### Building the Project
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/DSAStudy.git
+git clone https://github.com/justinianstefan/DSAStudy.git
 
 # Navigate to the project directory
 cd DSAStudy
