@@ -11,12 +11,29 @@ The solution is organized into two main projects:
 
 ## Current Implementations
 
-### Arrays
-- [Two Sum](DSAStudy.Core/Algorithms/Arrays/TwoSum.cs)
-  - Problem: Find two numbers in an array that add up to a target value
-  - Time Complexity: O(n)
-  - Space Complexity: O(n)
-  - [Tests](DSAStudy.Tests/Algorithms/Arrays/TwoSumTests.cs)
+### Array Mastery
+
+A collection of essential array algorithms, each with clean C# implementations and comprehensive xUnit tests.
+
+| Algorithm                        | Description                                                      | Status   |
+|----------------------------------|------------------------------------------------------------------|----------|
+| Remove Duplicates from Sorted Array | Remove duplicates in-place from a sorted array.                  | ✅ Implemented & Tested |
+| Move Zeros to End                | Move all zeros to the end of the array, maintaining order.        | ✅ Implemented & Tested |
+| Rotate Array by K                | Rotate the array to the right by k steps.                        | ✅ Implemented & Tested |
+| Kadane's Max Subarray Sum        | Find the maximum sum of a contiguous subarray (Kadane's).         | ✅ Implemented & Tested |
+| Prefix Sum Array                 | Build a prefix sum array and answer range sum queries.            | ✅ Implemented & Tested |
+| Merge Two Sorted Arrays          | Merge two sorted arrays into one sorted array.                    | ✅ Implemented & Tested |
+| Find Missing Number              | Find the missing number in a sequence from 0 to n.                | ✅ Implemented & Tested |
+| Find Duplicate Number            | Find the duplicate number in an array of n+1 elements.            | ✅ Implemented & Tested |
+| Product Except Self              | Product of array except self, without division.                   | ✅ Implemented & Tested |
+
+Each algorithm includes:
+- Clean function signature
+- Edge case handling
+- xUnit test coverage
+- Performance scenario (where meaningful)
+
+See the `DSAStudy.Core/Algorithms/Arrays/` and `DSAStudy.Tests/Algorithms/Arrays/` directories for code and tests.
 
 ## Getting Started
 
