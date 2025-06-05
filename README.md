@@ -35,6 +35,27 @@ Each algorithm includes:
 
 See the `DSAStudy.Core/Algorithms/Arrays/` and `DSAStudy.Tests/Algorithms/Arrays/` directories for code and tests.
 
+### String Manipulation
+
+A collection of essential string manipulation algorithms, each with clean C# implementations and comprehensive xUnit tests.
+
+| Algorithm                        | Description                                                      | Status   |
+|----------------------------------|------------------------------------------------------------------|----------|
+| Count Vowels and Consonants      | Count vowels and consonants in a string, handling Unicode.       | ✅ Implemented & Tested |
+| First Unique Character           | Find the first non-repeating character in a string.              | ✅ Implemented & Tested |
+| Remove Duplicate Characters      | Remove duplicate characters while preserving order.              | ✅ Implemented & Tested |
+| String Rotation Check            | Check if one string is a rotation of another.                    | ✅ Implemented & Tested |
+| Reverse String                   | Reverse a string in-place.                                       | ✅ Implemented & Tested |
+
+Each algorithm includes:
+- Clean function signature
+- Edge case handling
+- Unicode character support
+- xUnit test coverage
+- Performance considerations
+
+See the `DSAStudy.Core/Strings/` and `DSAStudy.Tests/Strings/` directories for code and tests.
+
 ## Getting Started
 
 ### Prerequisites
