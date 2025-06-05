@@ -46,6 +46,11 @@ A collection of essential string manipulation algorithms, each with clean C# imp
 | Remove Duplicate Characters      | Remove duplicate characters while preserving order.              | ✅ Implemented & Tested |
 | String Rotation Check            | Check if one string is a rotation of another.                    | ✅ Implemented & Tested |
 | Reverse String                   | Reverse a string in-place.                                       | ✅ Implemented & Tested |
+| String Compression              | Compress a string by counting consecutive characters.            | ✅ Implemented & Tested |
+| Longest Common Prefix           | Find the longest common prefix among an array of strings.        | ✅ Implemented & Tested |
+| Most Frequent Character         | Find the most frequently occurring character in a string.        | ✅ Implemented & Tested |
+| Anagram Check                   | Check if two strings are anagrams of each other.                 | ✅ Implemented & Tested |
+| Is Palindrome                   | Check if a string is a palindrome.                               | ✅ Implemented & Tested |
 
 Each algorithm includes:
 - Clean function signature
