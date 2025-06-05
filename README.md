@@ -15,17 +15,17 @@ The solution is organized into two main projects:
 
 A collection of essential array algorithms, each with clean C# implementations and comprehensive xUnit tests.
 
-| Algorithm                        | Description                                                      | Status   |
-|----------------------------------|------------------------------------------------------------------|----------|
-| Remove Duplicates from Sorted Array | Remove duplicates in-place from a sorted array.                  | ✅ Implemented & Tested |
-| Move Zeros to End                | Move all zeros to the end of the array, maintaining order.        | ✅ Implemented & Tested |
-| Rotate Array by K                | Rotate the array to the right by k steps.                        | ✅ Implemented & Tested |
-| Kadane's Max Subarray Sum        | Find the maximum sum of a contiguous subarray (Kadane's).         | ✅ Implemented & Tested |
-| Prefix Sum Array                 | Build a prefix sum array and answer range sum queries.            | ✅ Implemented & Tested |
-| Merge Two Sorted Arrays          | Merge two sorted arrays into one sorted array.                    | ✅ Implemented & Tested |
-| Find Missing Number              | Find the missing number in a sequence from 0 to n.                | ✅ Implemented & Tested |
-| Find Duplicate Number            | Find the duplicate number in an array of n+1 elements.            | ✅ Implemented & Tested |
-| Product Except Self              | Product of array except self, without division.                   | ✅ Implemented & Tested |
+| Algorithm                        | Description                                                      | Time Complexity | Space Complexity | Status   |
+|----------------------------------|------------------------------------------------------------------|-----------------|------------------|----------|
+| Remove Duplicates from Sorted Array | Remove duplicates in-place from a sorted array.                  | O(n) | O(1) | ✅ Implemented & Tested |
+| Move Zeros to End                | Move all zeros to the end of the array, maintaining order.        | O(n) | O(1) | ✅ Implemented & Tested |
+| Rotate Array by K                | Rotate the array to the right by k steps.                        | O(n) | O(1) | ✅ Implemented & Tested |
+| Kadane's Max Subarray Sum        | Find the maximum sum of a contiguous subarray (Kadane's).         | O(n) | O(1) | ✅ Implemented & Tested |
+| Prefix Sum Array                 | Build a prefix sum array and answer range sum queries.            | O(n) | O(n) | ✅ Implemented & Tested |
+| Merge Two Sorted Arrays          | Merge two sorted arrays into one sorted array.                    | O(n + m) | O(n + m) | ✅ Implemented & Tested |
+| Find Missing Number              | Find the missing number in a sequence from 0 to n.                | O(n) | O(1) | ✅ Implemented & Tested |
+| Find Duplicate Number            | Find the duplicate number in an array of n+1 elements.            | O(n) | O(1) | ✅ Implemented & Tested |
+| Product Except Self              | Product of array except self, without division.                   | O(n) | O(1) | ✅ Implemented & Tested |
 
 Each algorithm includes:
 - Clean function signature
@@ -39,18 +39,18 @@ See the `DSAStudy.Core/Algorithms/Arrays/` and `DSAStudy.Tests/Algorithms/Arrays
 
 A collection of essential string manipulation algorithms, each with clean C# implementations and comprehensive xUnit tests.
 
-| Algorithm                        | Description                                                      | Status   |
-|----------------------------------|------------------------------------------------------------------|----------|
-| Count Vowels and Consonants      | Count vowels and consonants in a string, handling Unicode.       | ✅ Implemented & Tested |
-| First Unique Character           | Find the first non-repeating character in a string.              | ✅ Implemented & Tested |
-| Remove Duplicate Characters      | Remove duplicate characters while preserving order.              | ✅ Implemented & Tested |
-| String Rotation Check            | Check if one string is a rotation of another.                    | ✅ Implemented & Tested |
-| Reverse String                   | Reverse a string in-place.                                       | ✅ Implemented & Tested |
-| String Compression              | Compress a string by counting consecutive characters.            | ✅ Implemented & Tested |
-| Longest Common Prefix           | Find the longest common prefix among an array of strings.        | ✅ Implemented & Tested |
-| Most Frequent Character         | Find the most frequently occurring character in a string.        | ✅ Implemented & Tested |
-| Anagram Check                   | Check if two strings are anagrams of each other.                 | ✅ Implemented & Tested |
-| Is Palindrome                   | Check if a string is a palindrome.                               | ✅ Implemented & Tested |
+| Algorithm                        | Description                                                      | Time Complexity | Space Complexity | Status   |
+|----------------------------------|------------------------------------------------------------------|-----------------|------------------|----------|
+| Count Vowels and Consonants      | Count vowels and consonants in a string, handling Unicode.       | O(n) | O(1) | ✅ Implemented & Tested |
+| First Unique Character           | Find the first non-repeating character in a string.              | O(n) | O(1) | ✅ Implemented & Tested |
+| Remove Duplicate Characters      | Remove duplicate characters while preserving order.              | O(n) | O(1) | ✅ Implemented & Tested |
+| String Rotation Check            | Check if one string is a rotation of another.                    | O(n) | O(1) | ✅ Implemented & Tested |
+| Reverse String                   | Reverse a string in-place.                                       | O(n) | O(1) | ✅ Implemented & Tested |
+| String Compression              | Compress a string by counting consecutive characters.            | O(n) | O(n) | ✅ Implemented & Tested |
+| Longest Common Prefix           | Find the longest common prefix among an array of strings.        | O(S) | O(1) | ✅ Implemented & Tested |
+| Most Frequent Character         | Find the most frequently occurring character in a string.        | O(n) | O(1) | ✅ Implemented & Tested |
+| Anagram Check                   | Check if two strings are anagrams of each other.                 | O(n) | O(1) | ✅ Implemented & Tested |
+| Is Palindrome                   | Check if a string is a palindrome.                               | O(n) | O(1) | ✅ Implemented & Tested |
 
 Each algorithm includes:
 - Clean function signature
